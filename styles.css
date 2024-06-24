@@ -1,0 +1,156 @@
+.topnav{
+    
+    overflow: hidden;
+    border-width: 0 0 1.5px 0;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;  
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 3;
+    
+
+}
+
+.topnav a{
+    float: left;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration:none ;
+    font-weight: bold;
+
+
+}
+
+.topnav a.top3{
+    float: right;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    
+
+}
+
+.row1{
+    padding-left: 80px;
+    padding-top: 70px;
+    font-size: large;
+   
+}
+.row1 a{
+    color : black;
+    text-decoration: none;
+    padding: 15px;
+}
+.row1 a.active{
+    color:lightsalmon;
+}
+
+.img{
+    padding: 40px 200px;
+    width :100%;
+}
+
+.para1{
+    text-align: left;
+    padding: 50 25%;
+}
+.row3 {
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-end; /* Align items to the end (bottom) of the container */
+    position: relative;
+    width: auto; /* Adjust as needed */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    background-color: rgb(244, 244, 197);
+    padding: 20px; /* Add padding as needed */
+}
+
+.image1 {
+    width: 50%; /* Adjust width as needed */
+    z-index: 1;
+    padding:70px;
+    padding-right: 20px;
+    /* Avoid using relative positioning if not necessary */
+    /* top: 60px;
+    left: 210px; */
+}
+
+.image2 {
+    width: 50%; /* Adjust width as needed */
+    padding: 50px; /* Adjust padding as needed */
+    /* Avoid using absolute positioning unless necessary */
+    /* position: absolute;
+    right: 40px;
+    top: 40px; */
+}
+
+.vid1{
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap as needed */
+    padding: 50px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap as needed */
+    background-color: lemonchiffon;
+}
+
+.flex2 img {
+    width: 60%; /* Make images take 50% of the flex2 width */
+    height: auto;
+    margin :10% 25% ;
+}
+
+/* Ensure images in the flex1 take full available width */
+.flex1 img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    right: 50px;
+}
+
+.flex3{
+    display: flex;
+    padding:50px 15%;
+    gap:15px;
+    text-align: center;
+}
+.flex3 >div{
+    flex: 1; /* Make both child divs take equal space */
+    display: flex; /* Make the child divs flex containers */
+    justify-content: center; /* Center content horizontally if needed */
+    align-items: center; /* Center content vertically */
+    background-color: rgb(190, 245, 226);
+    gap: 10px;
+    
+}
+
+.text1 p{
+    
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.flex3 img {
+    width: 100%; 
+    height: 100%;
+
+}
